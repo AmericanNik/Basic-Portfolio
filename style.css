@@ -1,0 +1,195 @@
+/*
+Font Families
+
+
+
+List of classes*/
+
+
+html{
+  position:relative;
+  min-height:100%;
+}
+
+body{
+  background-color:#555;
+  margin: 0 0 100px;
+}
+
+
+
+/* Headings Section */
+
+
+/*Nav section */
+
+
+
+.navBack{
+  background-color:#343a40;
+}
+
+.navMenu{
+  width:80%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.navMenu li a{
+  font-style: none;
+
+}
+
+.my-brand{
+  background-color:coral;
+  padding:10px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  font-weight:600;
+}
+
+.my-navContainer{
+  background-color: #343a40;
+
+
+}
+
+/* grid system */
+
+
+.my-container{
+  border:3px solid #333;
+  margin-top:30px;
+  background-color:#eee;
+  padding:20px;
+  width:80%;
+  max-width: 1140px;
+  text-overflow: clip;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.my-col{
+  position:relative;
+  padding-left:0;
+  margin:px;
+
+}
+
+
+/* Title Section */
+
+.proPic{
+  margin-right:20px;
+  width:200px;
+  height: 200px;
+  position:relative;
+}
+
+/* Footer SectionA */
+
+.footer {
+  position: absolute;
+  margin-top:1px;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color:#343a40;
+}
+
+
+/* Portfolio Section */
+
+.portfolioPic{
+  height:200px;
+  width:200px;
+}
+
+.portfolio-image-text{
+  position:absolute;
+bottom:10%;
+text-align: center;
+color:#fff;
+background-color:rgba(0,0,0,.5);
+width:200px;
+padding-top:5px;
+padding-bottom:5px;
+text-align: center;
+margin-left:0;
+}
+
+.portfolioContainer{
+  padding:30px;
+}
+
+.portBox2{
+  margin:25px;
+}
+
+
+.portfoliioPic{
+  height:200px;
+  width: 200px;
+}
+
+.porfolioImageBox{
+  height:200px;
+  width:200px;
+  margin:auto;
+  background-color:lightblue;
+  position:relative;
+
+}
+
+/* Contact Section */
+
+.formMain{
+  margin:30px auto 150px auto;
+
+  padding:30px;
+
+  border: 1px solid #555;
+  box-shadow: 1px 1px 1px 1px;
+
+  width:80%;
+;
+}
+
+.contactInput{
+  display:inline-grid;
+}
+
+.contactInfo input{
+  display:inline;
+
+}
+
+.contactLabel{
+  width:49.7%;
+  margin-bottom:10px;
+}
+
+@media (min-width:600px){
+  p {
+    font-size: 1.25rem;
+    }
+
+  .introParagraph{
+    display:block;
+  }
+
+}
+
+
+@media (min-width: 1200px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+}
