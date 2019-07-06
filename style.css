@@ -146,6 +146,12 @@ margin-left:0;
 
 }
 
+.portBody{
+    background-image: url(./images/berube-jonathan-berube-art-director-matte-192.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
 /* Contact Section */
 
 .formMain{
